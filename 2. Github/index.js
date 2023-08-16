@@ -19,4 +19,7 @@
 //? push
 //! git push origin master
 
-//?
+//? branch
+//! git branch branchName => yangi branch yaratish
+//! git checkout branchName => yaratilgan branchga o'tish
+
