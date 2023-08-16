@@ -17,9 +17,13 @@
 //! git commit -m "Izoh teksti"
 
 //? push
-//! git push origin master
+//! git push origin branchName
+//! git push --force origin master
 
 //? branch
 //! git branch branchName => yangi branch yaratish
 //! git checkout branchName => yaratilgan branchga o'tish
+//! git branch -m branchName => yangi branch yaratish + yaratilgan branchga o'tish
 
+//? clone
+//! git clone URL
