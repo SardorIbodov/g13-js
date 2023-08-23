@@ -51,3 +51,18 @@
 // } else {
 // 	console.log("sonlar teng");
 // }
+
+//! Ternary operators
+// const age = 18;
+// if(age >= 18) {
+// 	console.log("Saylash huquqiga ega");
+// } else {
+// 	console.log("Saylash mumkin emas!");
+// }
+// age >= 18
+//   ? console.log("Saylash huquqiga ega")
+//   : console.log("Saylash mumkin emas!");
+
+//! Nullish operator
+// ?? => null, undefined
+// console.log(null ?? undefined);
