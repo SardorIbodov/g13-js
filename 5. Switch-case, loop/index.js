@@ -148,7 +148,7 @@
 // }
 
 //! n gacha tub sonlarni topish
-// let n = 10; 
+// let n = 10;
 // for (let i = 2; i <= n; i++) {
 //   let buluvchilariSoni = 0;
 //   for (let k = 1; k <= i; k++) {
@@ -158,7 +158,7 @@
 //   if (buluvchilariSoni === 2) console.log(`${i} - tub son`);
 // }
 
-//! 
+//!
 // *
 // **
 // ***
@@ -177,7 +177,6 @@
 // 	str = "";
 // }
 
-
 // let n = 10;
 // let str = "";
 // for(let i = 1; i <= 10; i++) {
@@ -187,7 +186,7 @@
 
 // **********
 // *        *
-// *        *  
+// *        *
 // *        *
 // **********
 
@@ -218,6 +217,16 @@
 // * * * * * * *
 // * * * * * * *
 
+// const n = 10;
+// let str = "";
+// for(let i = 1; i <= n; i++) {
+// 	for(let k = 1; k <= n; k++) {
+// 		if(i >= 2) break;
+// 		str += "* ";
+// 	}
+// 	console.log(str);
+// }
+
 // * * * * * * *
 // *         * *
 // *       *   *
@@ -225,6 +234,21 @@
 // *   *       *
 // * *         *
 // * * * * * * *
+// const n = 10;
+// for (let i = 1; i <= 10; i++) {
+//   let str = "";
+//   for (let k = 1; k <= 10; k++) {
+//     if (i === 1 || i === n) {
+//       str += "* ";
+//     } else {
+//       if (k === 1 || k === n || i + k === n + 1) {
+//         str += "* ";
+//       } else str += "  ";
+//     }
+//   }
+// 	console.log(str);
+// 	str = "";
+// }
 
 // * * * * * * *
 // * *       * *
@@ -233,18 +257,99 @@
 // *   *   *   *
 // * *       * *
 // * * * * * * *
+// const n = 11;
+// for (let i = 1; i <= n; i++) {
+//   let str = "";
+//   for (let k = 1; k <= n; k++) {
+//     if (i === 1 || i === n) {
+//       str += "* ";
+//     } else {
+//       if (k === 1 || k === n || i + k === n + 1 || i === k) {
+//         str += "* ";
+//       } else str += "  ";
+//     }
+//   }
+// 	console.log(str);
+// 	str = "";
+// }
 
-//       *
-//      * *
-//     * * * 
-//   * * * * * 
-// * * * * * * * 
+// # # # * # # #
+// # # * * * # #
+// # # * * * # #
+// # * * * * * #
+// * * * * * * *
 //     * * *
 
-// *            *    
+// const n = 10;
+// for (let i = 1; i <= n; i++) {
+//   let str = "";
+//   for (let k = i; k < n; k++) {
+//     str += " ";
+//   }
+//   for (let j = 1; j <= i * 2 - 1; j++) {
+//     str += "*";
+//   }
+//   console.log(str);
+//   str = "";
+// }
+
+// "#########*"
+
+// *            *
 // **          **
 // ***        ***
 // ****      ****
 // *****    *****
-// ******  ******    
-// ************** 
+// ******  ******
+// **************
+// const b = 7,
+//   e = 14;
+// for (let i = 1; i <= b; i++) {
+//   let str = "";
+//   for (let k = 1; k <= e; k++) {
+//     if (k <= 7) {
+//       if (k <= i) {
+//         str += "*";
+//       } else str += " ";
+//     } else {
+//       if (e - i + 1 <= k) {
+//         str += "*";
+//       } else str += " ";
+//     }
+//   }
+//   console.log(str);
+//   str = "";
+// }
+
+// let i = 0; // initial
+// while(condition) {
+// 	// logic
+// 	i++; // change
+// }
+
+// for(let i = 0 // initial; condition; change) {
+// logic
+// }
+
+// for(let i = 1; i <= 10; i++) {
+// 	console.log("tashqi");
+// 	//! i = 1
+// 	for(let k = 1; k <= 3; k++) {
+// 		//? k = 1
+// 		//? k = 2
+// 		//? k = 3
+// 		console.log("ichki");
+// 	}
+// 	//! i = 2
+// 	//? k = 1
+// 	//? k = 2
+// 	//? k = 3
+
+// 	// ...
+
+// 	//! i = 10
+// 	//? k = 1
+// 	//? k = 2
+// 	//? k = 3
+// }
+
