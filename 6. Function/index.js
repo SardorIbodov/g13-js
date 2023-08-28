@@ -162,3 +162,48 @@
 // };
 // let natija = getPrime(2);
 // console.log(natija);
+
+//! Sonni palindromlikka tekshirish
+// const isPalindrome = (number) => {
+// 	let birlik, unlik, yuzlik;
+// 	yuzlik = parseInt(number / 100);
+// 	unlik = parseInt((number - yuzlik * 100) / 10);
+// 	birlik = number % 10;
+// 	let number2 = birlik * 100 + unlik * 10 + yuzlik;
+// 	return number === number2;
+// }
+// console.log(isPalindrome(122));
+
+//! Default parameter
+// const greet = (firstName = "Foydalanuvchi") => {
+// 	return `${firstName}, Saytimizga xush kelibsiz!`
+// }
+// console.log(greet());
+
+//! Hoisting in variables
+// var a;
+// console.log(a);
+// var a = 10;
+
+// let a;
+// console.log(a);
+// let a = 10;
+
+// console.log(a);
+// const a = 10;
+
+//! Hoisting in functions
+// greet("Eshmat");
+// function greet(firstName) {
+// 	console.log(`${firstName}, Xush kelibsiz`);
+// }
+
+// greet("Eshmat");
+// const greet = function (firstName) {
+//   console.log(`${firstName}, Xush kelibsiz`);
+// };
+
+// greet("Eshmat");
+// const greet = (firstName) => {
+//   console.log(`${firstName}, Xush kelibsiz`);
+// };
