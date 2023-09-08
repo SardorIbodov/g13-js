@@ -106,11 +106,11 @@
 // console.log(Math.trunc(Math.random() * 10) + 1);
 //? 25 - 50
 // [0, 1) * 26 => [0, 26) => [0, 25] + 25 => [25, 50]
-// console.log(Math.trunc(Math.random() * 26) + 25);
+// console.log(Math.trunc(Math.random() * 25) + 25); 
 
 //? Homework
 //! Random generator
-// const randomGenerator = (min, max) => {};
+// const randomGenerator = (min, max) => Math.trunc(Math.random() * (max - min + 1)) + min;
 
 //! Math methodlarini yozib kelish => (sign, sqrt, cbrt, pow, abs, round, floor, ceil, trunc)
 // const mySqrt = (number) => number ** (1 / 2);
