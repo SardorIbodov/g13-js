@@ -157,3 +157,7 @@
 // let str2 = "webbrain";
 // console.log(str1.localeCompare(str2));
 
+//! raqam Ascii table => string
+//? String.fromCharCode(number)
+// let number = 85;
+// console.log(String.fromCharCode(number));
