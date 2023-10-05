@@ -1,0 +1,17 @@
+/* .login {
+  border: 2px solid blue;
+  border-radius: 5px;
+  width: 180px;
+  height: 44px;
+  outline: 1px solid green;
+} */
+
+.wrapper {
+  border: 2px solid red;
+  height: 200px;
+  overflow: auto;
+}
+
+.box {
+  background-color: yellow;
+}
