@@ -1,0 +1,48 @@
+.container {
+  width: 90%;
+  margin: 10px auto;
+}
+
+table {
+  border: 1px solid gray;
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid gray;
+  padding: 5px;
+}
+
+.deleteBtn,
+.editBtn {
+  display: block;
+  border: none;
+  color: white;
+  width: 90%;
+  padding: 4px 0;
+  margin: 0 auto;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+
+.deleteBtn:hover,
+.editBtn:hover {
+  opacity: 0.5;
+}
+
+.deleteBtn:active,
+.editBtn:active {
+  opacity: 0.9;
+}
+
+.deleteBtn {
+  background-color: red;
+}
+
+.editBtn {
+  background-color: green;
+}
