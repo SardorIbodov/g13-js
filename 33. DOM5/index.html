@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      form {
+        width: 500px;
+        margin: 10px auto;
+      }
+      fieldset {
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+      }
+      label {
+        display: flex;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="" name="signin">
+      <fieldset>
+        <legend>Sign-in</legend>
+        <input name="loginInput" type="text" placeholder="Login" />
+        <input name="passwordInput" type="password" placeholder="Parol" />
+        <input name="submitBtn" type="submit" value="Tizimga kirish" />
+        <select name="language">
+          <option value="uz">Uzbek</option>
+          <option value="ru">Russian</option>
+          <option value="en">English</option>
+        </select>
+        <p id="greeting">Salom, xush kelibsiz!</p>
+        <label for="agree">
+          <span>Shartlarimizga rozimisiz</span>
+          <input type="checkbox" id="agree" name="checkbox" />
+        </label>
+        <label for="height">
+          <span>Yoshingizni kiriting:</span>
+          <input type="range" id="height" name="height" min="1" max="150" />
+					<span id="result"></span>
+        </label>
+      </fieldset>
+    </form>
+
+    <form action="" name="register">
+      <fieldset>
+        <legend>Sign-up</legend>
+        <input type="text" placeholder="Ismingizni kiriting" />
+        <input type="text" placeholder="Parol yarating" />
+        <input type="number" placeholder="Yoshingiz" />
+        <input type="submit" value="Ro'yxatdan o'tish" />
+      </fieldset>
+    </form>
+    <script src="./script.js"></script>
+  </body>
+</html>
