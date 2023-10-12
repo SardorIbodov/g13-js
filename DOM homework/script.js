@@ -44,8 +44,9 @@ const container = document.querySelector(".container");
 // for (let i = 0; i < 100; i++) {
 //   buttons[i].addEventListener("click", (e) => {
 //     let clickedNumber = e.target.innerText;
-//     for (let b of buttons) {
-//       if (b.innerText % clickedNumber === 0) b.innerText = "*";
-//     }
+//     for (let k = 1; k <= 100; k++) {
+//       if (buttons[k - 1].innerText % clickedNumber === 0) buttons[k - 1].innerText = "*";
+// 			else buttons[k - 1].innerText = k;
+// 		}
 //   });
 // }
