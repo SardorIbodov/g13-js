@@ -8,25 +8,29 @@
   </head>
   <body>
     <div class="container">
-			<span>Saralash</span>
-			<select id="sortBy">
+			<!-- Yangi malumot qo'shish -->
+			<div class="add">
+				<input type="text" placeholder="Name" id="addName" />
+        <input type="number" placeholder="BirthYear" id="addBirthYear" />
+        <button id="addBtn">Add</button>
+      </div>
+			<!-- Qidirish -->
+      <div class="Search">
+				<input type="text" id="search" placeholder="Type to search" />
+      </div>
+			<!-- Saralash  -->
+      <span>Saralash</span>
+      <select id="sortBy">
 				<option value="id">ID</option>
-				<option value="name">Ism</option>
-				<option value="birthYear">Yoshi</option>
-			</select>
+        <option value="name">Ism</option>
+        <option value="birthYear">Yoshi</option>
+      </select>
+			<!-- Info -->
+			<h1></h1>
+			<!-- Data  -->
       <table>
-        <thead>
-          <tr>
-            <th>ID</th>
-            <th>Ism-familiyasi</th>
-            <th>Tug'ilgan yili</th>
-            <th>O'chirish</th>
-            <th>O'zgartirish</th>
-          </tr>
-        </thead>
-				<tbody>
-
-				</tbody>
+        <thead></thead>
+        <tbody></tbody>
       </table>
     </div>
     <script src="./script.js" type="module"></script>

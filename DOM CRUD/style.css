@@ -14,10 +14,19 @@ th,
 td {
   border: 1px solid gray;
   padding: 5px;
+  min-width: 120px;
+}
+
+.tEdit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .deleteBtn,
-.editBtn {
+.editBtn,
+.saveBtn,
+.cancelBtn {
   display: block;
   border: none;
   color: white;
@@ -29,20 +38,31 @@ td {
   transition: 0.3s linear;
 }
 
+.saveBtn,
+.cancelBtn {
+  width: 40%;
+}
+
 .deleteBtn:hover,
-.editBtn:hover {
+.editBtn:hover,
+.saveBtn:hover,
+.cancelBtn:hover {
   opacity: 0.5;
 }
 
 .deleteBtn:active,
-.editBtn:active {
+.editBtn:active,
+.saveBtn:active,
+.cancelBtn:active {
   opacity: 0.9;
 }
 
-.deleteBtn {
+.deleteBtn,
+.cancelBtn {
   background-color: red;
 }
 
-.editBtn {
+.editBtn,
+.saveBtn {
   background-color: green;
 }
